@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#customTable{
+    font-size: 13px;
+    width: 80%;
+    margin-left: 10%;
+    color: #848484;
+}
+
+body{
+    margin-top: 4%;
+    position: relative;
+    min-height: 100vh;
+}
+.user-avatar{
+    display: inline-block;
+}
+
+#nav-search{
+    width: 400px;
+    margin-top: 10px;
+    border: none;
+    text-shadow: none;
+}
+header{
+    margin: 0;
+}
+.navbar{
+    margin: 0;
+}
+.content {
+    padding: 1%;
+    float: left;
+    width: 80%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+.footer-content{
+    background-color: #bababa;
+}
+
+.form-inline a{
+    float: right;
+    width: 90px;
+}
+.content-inline
+{
+    margin-bottom: -25px;
+}
+.fa-sign-in-alt{
+    padding-right: 2px;
+}
+.card-text {
+    display: inline-block;
+    background: linear-gradient(110deg, rgba(115, 115, 115, 0.14) 60%, rgba(188, 188, 188, 0.39) 60%);
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 3px;
+    padding-bottom: 33px;
+    border: 1px solid #bcbcbc;
+}
+div.row{
+    margin: 0;
+}
+#icon-box{
+    margin-top: 65%;
+    text-align: right;
+    height: 100%;
+}
+    .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 173, 66, 0.5);
+}
+#apply{
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+.font-group{
+    text-align: center;
+}
+
+.sidebar {
+    position: sticky;
+    float: right;
+    width: 18%;
+}
+
+
+.sidebar-ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.sidebar-ul li a {
+    display: block;
+    color: #ffffff;
+    background-color: rgba(156, 156, 156, 0.62);
+    padding: 8px 16px;
+    margin-top: 1px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+#link-a-hide {
+    display:block
+}
+.sidebar-ul li a:hover {
+    background-color: rgba(75, 75, 75, 0.87);
+    color: white;
+}
+
+footer {
+    background-color: #353535;
+    color: white;
+    font-size: small;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+#box1{
+    background: red;
+}
+.post-container{
+    background-color: #eeeeee;
+    width: 70%;
+    padding: 2%;
+    height: 150px;
+    margin-bottom: 1%;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    height: 200px;
+    background-color: #B2D6FF;
+}
+
+.modal-body,  span.a{
+    display: inline-block;
+    padding: 5px;
+}
+ul li .active{
+    font-size: 20px;
+    color: #ffad42;
+}
+ul li .active:hover{
+    font-size: 20px;
+    color: #fffca2;
+}
+.navbar{
+    background-color: #2e2e2e;
+}
+.navbar .container a:not(.active){
+    color: rgba(222, 222, 222, 0.96);
+}
+.navbar .container a:not(.active):hover{
+    color: white;
+}
+.navbar-nav>li>a:hover{
+    background-color: #2e2e2e;
+}
+.modal-body span.b{
+    padding-left: 5px;
+}
+.container-fluid span.a{
+    display: inline-block;
+    padding: 5px;
+}
+
+.container-fluid span.b{
+    padding-left: 5px;
+}
+article .c{
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    padding: 5px;
+}
+
+#application{
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px #d7d7d7;
+    border-radius: 5px;
+    color: #353535;
+}
+#application:hover{
+    background-color: #fcfcfc;
+}
+.job-icons .active{
+    color: #039364;
+}
+.job-icons .active:hover{
+    color: #d28338;
+}
+.parallax {
+    /* The image used */
+
+    background-image: url("../img/home.jpg");
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.para-box1{
+    height:350px;
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.para-box2{
+    padding-top: 2%;
+    height: 100px;
+    background-color: #ffffff;
+}
+.page-header:hover {
+    border-bottom: 1px solid #2e2e2e;
+
+}
+.footer-icons{
+    padding-right: 40%;
+    padding-left: 40%;
+}
+.footer-icons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-icons li {
+    display: inline;
+    padding-left: 20px;
+}
+.footer-icons li a{
+    text-decoration: none;
+    font-size: large;
+}
+#reg-card{
+    padding: 15px;
+}
+#postEmp-box{
+    padding: 15px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #9b9b9b;
+}
+.breadcrumb a:hover{
+    color: black;
+}
+.breadcrumb{
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: solid 1px #dedede;
+}
